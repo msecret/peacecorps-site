@@ -88,14 +88,16 @@ body {
 // Heading
 //
 // Headings are in the main content, serving as titles to body text.
+// Font Family: Archer Medium
+// Leading: 1.3 of font size
 //
 // Markup:
 // <h1 class="{{ modifier_class }}">The Heading</h1>
 //
-// .t-heading--1  - First and largest heading size.
-// .t-heading--2  - Heading 2.
-// .t-heading--3  - Heading 3.
-// .t-heading--4  - Heading 4.
+// .t-heading--1  - 27px , First and largest heading size.
+// .t-heading--2  - 24px Heading 2.
+// .t-heading--3  - 21px Heading 3.
+// .t-heading--4  - 18px Heading 4.
 // .t-heading--stylized  - A "stylized" heading, or one where the positioning
 //   and sizing of it are maniuplated purposely for a specific layout.
 //
@@ -154,13 +156,15 @@ h4 + h3 {
 // Body
 //
 // Body text, purposed for readibilty of large amounts of content.
+// Font family: Lato Light
+// Leading: 1.8 of font size
 //
 // Markup:
 // <p class="{{ modifier_class }}">The Heading</p>
 //
-// .t-body--lg  - Largest set of type, used for full-page articles of content.
-// .t-body--md  - Standard set of body type, used in most places across site.
-// .t-body--sm  - Small set of type for when things have to be smaller then
+// .t-body--lg  - 18px Largest set of type, used for full-page articles of content.
+// .t-body--md  - 16px Standard set of body type, used in most places across site.
+// .t-body--sm  - 14px Small set of type for when things have to be smaller then
 //   body, used as links in the footer amoung other things.
 // .t-body--xms  - For very small text, should not be used for important text.
 //    An example use could be small copyright at bottom of a page.
@@ -207,16 +211,18 @@ p + p {
 //
 // Title styles are for titles not associated with content. They are differently
 // styled the headings.
+// Font Family: Lato Regular(medium)
+// Leading: 1.6 of font size
 //
 // Markup:
 // <h1 class="{{ modifier_class }}">The Title</h1>
 //
-// .t-title--1  - Largest title size, title 1.
-// .t-title--2  - Title 2.
-// .t-title--3  - Title 3.
-// .t-title--4  - Title 4.
-// .t-title--5  - Title 5.
-// .t-title--6  - Title 6.
+// .t-title--1  - 23px Largest title size, title 1.
+// .t-title--2  - 16px Title 2.
+// .t-title--3  - 13px Title 3.
+// .t-title--4  - 11px Title 4.
+// .t-title--5  - 9px Title 5.
+// .t-title--6  - 7px Title 6.
 //
 // Styleguide base.type.title
 @mixin t-title {
@@ -271,12 +277,14 @@ p + p {
 //
 // Blurbs are large pieces of readable (not uppercased) text that call out
 // bits of important information.
+// Font Family: Archer Medium
+//
 //
 // Markup:
 // <h2 class="{{ modifier_class }}">A blurb of text about something</p>
 //
-// .t-blurb--lg  - Largest blurb style.
-// .t-blurb--md  - Middle blurb style, for most use cases.
+// .t-blurb--lg  - 36px Largest blurb style.
+// .t-blurb--md  - 26px Middle blurb style, for most use cases.
 //
 // Styleguide base.type.blurb
  @mixin t-blurb {
@@ -305,7 +313,7 @@ p + p {
 
 // Icon
 //
-// Icon is for text that goes along with an icon
+// Icon is for text that goes along with an icon, 10.5px.
 //
 // Markup:
 // <span class="t-icon">A piece of text next to an icon</span>
@@ -320,7 +328,8 @@ p + p {
 
 // Single-nav
 //
-// Single-nav are single navigational elements, such as links to more content.
+// Single-nav are single navigational elements, such as links to more content,
+// 11px.
 //
 // Markup:
 // <a class="t-single_nav">Go to here</a>
